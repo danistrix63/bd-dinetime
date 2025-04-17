@@ -52,7 +52,8 @@ CREATE TABLE resenas (
     comentario TEXT,
     fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+------------------------------------------------------------------------------
+*ELIMINAR*
 -- Tabla de Facturación
 CREATE TABLE facturacion (
     id SERIAL PRIMARY KEY,
